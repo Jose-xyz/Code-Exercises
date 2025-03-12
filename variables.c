@@ -11,8 +11,8 @@ int main()
   printf("points is %d and is stored at 0x%08x\n", points, &points);
   printf("year is %d and is stored at 0x%08x\n", year, &year);
   void * data = malloc(512);
-  printf("data is 0x%08x")
+  printf("data is 0x%08x and stored at 0x%08x\n", data, &data);
+
   raise(SIGINT);
- 
   return 0;
 }
